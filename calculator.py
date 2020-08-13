@@ -32,6 +32,10 @@ with open('step_3.txt', 'r') as f:
                 result = num1 / num2
                 print(result)
                 total += result
+                elif (operator == '^'):
+                result = num1 ^ num2
+                print(result)
+                total += result
             lineNumber = lineNumber + 1 
         elif (command == 'goto'):
             if (args[1] == 'calc'):
